@@ -47,6 +47,7 @@ Notebook otomatis “resume” kalau file `CSV_PATH` sudah ada:
 - append review baru ke CSV yang sama
 
 ## Notes
+- Terakhir dicoba dengan `HEADLESS=True` masih ga jalan, jadi `False` aja dulu.
 - `HEADLESS=False` memudahkan debugging (browser kebuka). Kalau mau jalan di background, set `True`.
 - Google Maps kadang menampilkan UI Bahasa Indonesia/Inggris; selector di notebook sudah coba handle keduanya.
 - Kalau kena CAPTCHA / diblok, coba kurangi `TARGET_REVIEWS`, jalankan headful (`HEADLESS=False`), atau ulang beberapa saat kemudian.
